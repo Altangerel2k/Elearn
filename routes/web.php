@@ -67,6 +67,9 @@ Route::post('/roles/store', 'ScaffoldInterface\RoleController@store');
 Route::get('/roles/edit/{id}', 'ScaffoldInterface\RoleController@edit')->middleware('auth');
 Route::post('/roles/update', 'ScaffoldInterface\RoleController@update')->middleware('auth');
 Route::get('/roles/delete/{id}', 'ScaffoldInterface\RoleController@destroy')->middleware('auth');
+
+Route::get('/lessons','LessonsController@index')->middleware('auth');
+Route::get('/lessons/create', 'LessonsController@create');
 /*API*/
 
 
