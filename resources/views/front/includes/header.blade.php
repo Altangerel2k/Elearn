@@ -32,32 +32,7 @@
 					
 		                <a href="#"><span class="title">Хичээлүүд</span></a>
 		                <!-- Level Two-->
-	                	<ul>
-		                    <li>
-		                        <a href="#">Courses List</a>
-		                        <!-- Level Three-->
-		                        <ul>
-		                            <li><a href="page-course-v1.html">Courses v1</a></li>
-		                            <li><a href="page-course-v2.html">Courses v2</a></li>
-		                            <li><a href="page-course-v3.html">Courses v3</a></li>
-		                        </ul>
-		                    </li>
-		                    <li>
-		                        <a href="#">Courses Single</a>
-		                        <!-- Level Three-->
-		                        <ul>
-		                            <li><a href="page-course-single-v1.html">Single V1</a></li>
-		                            <li><a href="page-course-single-v2.html">Single V2</a></li>
-		                            <li><a href="page-course-single-v3.html">Single V3</a></li>
-		                            <li><a href="page-course-single-v4.html">New Single V4</a></li>
-		                            <li><a href="page-course-single-v5.html">New Single V5</a></li>
-		                            <li><a href="page-course-single-v6.html">New Single V6</a></li>
-		                            <li><a href="page-course-single-v7.html">New Single V7</a></li>
-		                        </ul>
-		                    </li>
-                            <li><a href="page-instructors.html">Instructors</a></li>
-		                    <li><a href="page-instructors-single.html">Instructor Single</a></li>
-	                	</ul>
+	            
 		            </li>
 		            
 		            <li class="last">
@@ -94,10 +69,10 @@
 		      	</div>
 	    		<ul class="sign_up_tab nav nav-tabs" id="myTab" role="tablist">
 				  	<li class="nav-item">
-				    	<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Login</a>
+				    	<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Нэвтрэх</a>
 				  	</li>
 				  	<li class="nav-item">
-				    	<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Register</a>
+				    	<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Бүртгүүлэх</a>
 				  	</li>
 				</ul>
 				<div class="tab-content" id="myTabContent">
@@ -105,66 +80,48 @@
 						<div class="login_form">
 							<form action="#">
 								<div class="heading">
-									<h3 class="text-center">Login to your account</h3>
-									<p class="text-center">Don't have an account? <a class="text-thm" href="#">Sign Up!</a></p>
+									<h3 class="text-center">Нэвтрэх</h3>
+									
 								</div>
 								 <div class="form-group">
-							    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+							    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="И-майл хаяг">
 								</div>
 								<div class="form-group">
-							    	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							    	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Нууц үг">
 								</div>
 								<div class="form-group custom-control custom-checkbox">
 									<input type="checkbox" class="custom-control-input" id="exampleCheck1">
-									<label class="custom-control-label" for="exampleCheck1">Remember me</label>
-									<a class="tdu btn-fpswd float-right" href="#">Forgot Password?</a>
+									<label class="custom-control-label" for="exampleCheck1">Намайг сана</label>
+							
 								</div>
-								<button type="submit" class="btn btn-log btn-block btn-thm2">Login</button>
+								<button type="submit" class="btn btn-log btn-block btn-thm2">Нэвтрэх</button>
 								<hr>
-								<div class="row mt40">
-									<div class="col-lg">
-										<button type="submit" class="btn btn-block color-white bgc-fb"><i class="fa fa-facebook float-left mt5"></i> Facebook</button>
-									</div>
-									<div class="col-lg">
-										<button type="submit" class="btn btn-block color-white bgc-gogle"><i class="fa fa-google float-left mt5"></i> Google</button>
-									</div>
-								</div>
+								
 							</form>
 						</div>
 				  	</div>
 				  	<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 						<div class="sign_up_form">
 							<div class="heading">
-								<h3 class="text-center">Create New Account</h3>
-								<p class="text-center">Have an account? <a class="text-thm" href="#">Login</a></p>
+								<h3 class="text-center">Шинэ хаяг үүсгэх</h3>
 							</div>
 							<form action="#">
 								<div class="form-group">
-							    	<input type="text" class="form-control" id="exampleInputName1" placeholder="Username">
+							    	<input type="text" class="form-control" id="exampleInputName1" placeholder="Нэвтрэх нэр">
 								</div>
 								 <div class="form-group">
-							    	<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email Address">
+							    	<input type="email" class="form-control" id="exampleInputEmail2" placeholder="И-майл хаяг">
 								</div>
 								<div class="form-group">
-							    	<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+							    	<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Нууц үг">
 								</div>
 								<div class="form-group">
-							    	<input type="password" class="form-control" id="exampleInputPassword3" placeholder="Confirm Password">
+							    	<input type="password" class="form-control" id="exampleInputPassword3" placeholder="Нууц үг баталгаажуулах">
 								</div>
-								<div class="form-group custom-control custom-checkbox">
-									<input type="checkbox" class="custom-control-input" id="exampleCheck2">
-									<label class="custom-control-label" for="exampleCheck2">Want to become an instructor?</label>
-								</div>
-								<button type="submit" class="btn btn-log btn-block btn-thm2">Register</button>
+								
+								<button type="submit" class="btn btn-log btn-block btn-thm2">Бүртгүүлэх</button>
 								<hr>
-								<div class="row mt40">
-									<div class="col-lg">
-										<button type="submit" class="btn btn-block color-white bgc-fb"><i class="fa fa-facebook float-left mt5"></i> Facebook</button>
-									</div>
-									<div class="col-lg">
-										<button type="submit" class="btn btn-block color-white bgc-gogle"><i class="fa fa-google float-left mt5"></i> Google</button>
-									</div>
-								</div>
+								
 							</form>
 						</div>
 				  	</div>
@@ -178,7 +135,7 @@
 		    <a href="#" class="mk-fullscreen-close" id="mk-fullscreen-close-button"><i class="fa fa-times"></i></a>
 		    <div id="mk-fullscreen-search-wrapper">
 		      <form method="get" id="mk-fullscreen-searchform">
-		        <input type="text" value="" placeholder="Search courses..." id="mk-fullscreen-search-input">
+		        <input type="text" value="" placeholder="Хичээл хайх..." id="mk-fullscreen-search-input">
 		        <i class="flaticon-magnifying-glass fullscreen-search-icon"><input value="" type="submit"></i>
 		      </form>
 		    </div>
@@ -220,28 +177,7 @@
               
             </li>
             <li><span>Хичээлүүд</span>
-                <ul>
-                    <li><span>Courses List</span>
-                        <ul>
-                            <li><a href="page-course-v1.html">Courses v1</a></li>
-                            <li><a href="page-course-v2.html">Courses v2</a></li>
-                            <li><a href="page-course-v3.html">Courses v3</a></li>
-                        </ul>
-                    </li>
-                    <li><span>Courses Single</span>
-                        <ul>
-                            <li><a href="page-course-single-v1.html">Single V1</a></li>
-                            <li><a href="page-course-single-v2.html">Single V2</a></li>
-                            <li><a href="page-course-single-v3.html">Single V3</a></li>
-                            <li><a href="page-course-single-v4.html">New Single V4</a></li>
-                              <li><a href="page-course-single-v5.html">New Single V5</a></li>
-                              <li><a href="page-course-single-v6.html">New Single V6</a></li>
-                              <li><a href="page-course-single-v7.html">New Single V7</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="page-instructors.html">Instructors</a></li>
-                    <li><a href="page-instructors-single.html">Instructor Single</a></li>
-                </ul>
+               
             </li>
            
             

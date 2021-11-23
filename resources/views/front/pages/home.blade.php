@@ -68,7 +68,7 @@
       </div>
       <div class="row">
          <div class="col-sm-6 col-lg-3">
-            <div class="img_hvr_box" style="background-image: url(images/courses/1.jpg);">
+            <div class="img_hvr_box" style="background-image: url(images/courses/t1.jpg);">
                <div class="overlay">
                   <div class="details">
                      <h5>Санхүү хөрөнгө оруулалт</h5>
@@ -78,7 +78,7 @@
             </div>
          </div>
          <div class="col-sm-6 col-lg-3">
-            <div class="img_hvr_box" style="background-image: url(images/courses/2.jpg);">
+            <div class="img_hvr_box" style="background-image: url(images/courses/t2.jpg);">
                <div class="overlay">
                   <div class="details">
                      <h5>Дизайн</h5>
@@ -88,7 +88,7 @@
             </div>
          </div>
          <div class="col-sm-6 col-lg-3">
-            <div class="img_hvr_box" style="background-image: url(images/courses/3.jpg);">
+            <div class="img_hvr_box" style="background-image: url(images/courses/t3.jpg);">
                <div class="overlay">
                   <div class="details">
                      <h5>Мэдээллийн технологи</h5>
@@ -98,7 +98,7 @@
             </div>
          </div>
          <div class="col-sm-6 col-lg-3">
-            <div class="img_hvr_box" style="background-image: url(images/courses/4.jpg);">
+            <div class="img_hvr_box" style="background-image: url(images/courses/t4.jpg);">
                <div class="overlay">
                   <div class="details">
                      <h5>Веб хөгжүүлэлт</h5>
@@ -108,7 +108,7 @@
             </div>
          </div>
          <div class="col-sm-6 col-lg-3">
-            <div class="img_hvr_box" style="background-image: url(images/courses/5.jpg);">
+            <div class="img_hvr_box" style="background-image: url(images/courses/t5.jpg);">
                <div class="overlay">
                   <div class="details">
                      <h5>Маркетинг</h5>
@@ -118,7 +118,7 @@
             </div>
          </div>
          <div class="col-sm-6 col-lg-3">
-            <div class="img_hvr_box" style="background-image: url(images/courses/6.jpg);">
+            <div class="img_hvr_box" style="background-image: url(images/courses/t6.jpg);">
                <div class="overlay">
                   <div class="details">
                      <h5>Хувь хүний хөгжил</h5>
@@ -128,7 +128,7 @@
             </div>
          </div>
          <div class="col-sm-6 col-lg-3">
-            <div class="img_hvr_box" style="background-image: url(images/courses/7.jpg);">
+            <div class="img_hvr_box" style="background-image: url(images/courses/t7.jpg);">
                <div class="overlay">
                   <div class="details">
                      <h5>Иог</h5>
@@ -138,7 +138,7 @@
             </div>
          </div>
          <div class="col-sm-6 col-lg-3">
-            <div class="img_hvr_box" style="background-image: url(images/courses/8.jpg);">
+            <div class="img_hvr_box" style="background-image: url(images/courses/t8.jpg);">
                <div class="overlay">
                   <div class="details">
                      <h5>3D анимейшн</h5>
@@ -147,11 +147,7 @@
                </div>
             </div>
          </div>
-         <div class="col-lg-6 offset-lg-3">
-            <div class="courses_all_btn text-center">
-               <a class="btn btn-transparent" href="#">Бүх хичээлийг харах</a>
-            </div>
-         </div>
+         
       </div>
    </div>
 </section>
