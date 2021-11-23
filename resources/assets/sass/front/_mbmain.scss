@@ -1,0 +1,192 @@
+#carouselExampleIndicators.carousel.slide {
+
+  max-height: 560px !important;
+  .carousel-inner{
+    max-height: 560px !important;
+  }
+}
+.carousel-caption
+{
+  position: absolute;
+  top: 56%;  transform: translateY(-56%);
+}
+
+%textpadding {
+  padding:1.25rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  blockquote{
+    p{
+      color:white;
+    }
+  }
+}
+
+#main{
+  div {
+    background: white;
+    margin-top: -2rem;
+   div {
+     &:nth-child(1n) {
+       @extend %textpadding;
+     }
+     &:nth-child(1) {
+       background-color: #ff8b00;
+
+     }
+     &:nth-child(3) {
+       background-color: #dd1f00;
+
+     }
+     &:nth-child(2n) {
+       float: left;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center center;
+     }
+   }
+
+  }
+
+}
+%courseextenter
+{
+  height: 1.2rem;
+}
+.mbcourses{
+  .col  {
+
+    .headercolor1 {
+          @extend %courseextenter;
+          background-color: $mborange;
+      }
+    .headercolor2 {
+          @extend %courseextenter;
+          background-color: $mbyellow;
+      }
+    .headercolor3 {
+          @extend %courseextenter;
+          background-color: $mbblue;
+
+      }
+    .coursetext{
+      .h21{
+        color:$mborange!important;
+      }
+      .h22{
+        color:$mborange!important;
+      }
+      .h23{
+        color:$mborange!important;
+      }
+      background-color: white;
+      @extend %textpadding;
+      blockquote{
+        p{
+          color:black!important;
+        }
+      }
+    }
+
+  }
+
+}
+.mboffer{
+  .col  {
+
+    .headercolor {
+      @extend %courseextenter;
+
+    }
+    .coursetext{
+      text-align: left;
+      .h21{
+        color:$mborange!important;
+      }
+      .h22{
+        color:$mborange!important;
+      }
+      .h23{
+        color:$mborange!important;
+      }
+      background-color: white;
+      @extend %textpadding;
+      blockquote{
+        p{
+          color:black!important;
+        }
+      }
+    }
+
+  }
+
+}
+
+.mbteacher {
+
+  background-color: #d9481f;
+  padding: 3rem;
+  #mbteacher_row1 {
+
+
+    #mbteacher_row1text {
+      display: flex;
+      flex-direction:column;  /* make main axis vertical */
+      justify-content: center; /* center items vertically, in this case */
+      align-items: center;
+      text-align: center;
+      h2{
+        color:white;
+      }
+      p{
+        color:white;
+        font-size: 1.2rem;
+      }
+    }
+    .col-sm-6 {
+       padding: 0.7rem;
+    }
+  }
+
+}
+.mbteacher_row2 {
+  height: 28rem;
+  padding: 3rem;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction:column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.mbaboutuniv{
+  position: relative;
+  margin-top: 20%;
+  margin-left: 10%;
+  width:80%;
+  padding: 1.5em;
+  text-align: center;
+
+  margin-top: 3rem;
+  p{
+    margin: 0 0 1.4em;
+    color: #444;
+    font-size: 16px;
+    line-height: 1.4em;
+    font-family: FFNettoWebProBold,Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .seo-text__img{
+    min-height: 18.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 45.625rem;
+  }
+}

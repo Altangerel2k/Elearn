@@ -1,0 +1,120 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Teko:300|Titillium+Web:300");
+
+$accent: #e8504f;
+$bgaccent: #f63c3c;
+$bodyBase: #787579;
+$navBase: #352d2f;
+$greyText: #959595;
+$brown: #30282a;
+$navBGcolor:#dd1f00;
+$navsubcolor:#403B4C;
+$mborange:#d9481f;
+$mbyellow:#ff8b00;
+$mbblue:#5f62a6;
+
+* { box-sizing: border-box; }
+
+html { font-size: 16px; }
+
+body {
+  padding: 0;
+  margin:0;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: rem(16px);
+  background: #EDEDED;
+}
+
+main { overflow: hidden; }
+
+p { hyphens: auto;  }
+
+h2, h3, h4, h5 {
+  font-family: 'teko', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: rem(80px);
+  color: $brown;
+  line-height: .9375;
+  letter-spacing: letterspacing(150, 80);
+}
+h3 {
+  color: white;
+  font-size: rem(40px);
+  font-color: white;
+  letter-spacing: letterspacing(75,40);
+}
+h4 {
+  font-size: rem(30px);
+  line-height: 1.0;
+  letter-spacing: letterspacing(75,30);
+}
+h5 {
+  font-size: rem(20px);
+  line-height: 1.2;
+  letter-spacing: letterspacing(150,20);
+}
+
+p {
+  font-size: rem(18px);
+  line-height: 1.5;
+  color: #555;
+  font-family: 'titillium web', sans-serif;
+  font-weight: 300;
+  &.small {
+    font-size: rem(14px);
+  }
+}
+.mbheader{
+  position: relative;
+  margin-bottom: 4.25rem;
+  color: #5f62a6;
+  text-align: center;
+
+
+}
+.mbheader:after{
+  position: absolute;
+  content: "";
+  height: 4px;
+  height: .25rem;
+  width: 60px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: -20px;
+  bottom: -1.25rem;
+  background-color: #dd1f00;
+}
+
+.container{
+  .mbheading{
+    padding-top: 2rem;
+    h3{
+
+    }
+  }
+}
+
+.mbblockquotecenter {
+  display: flex;
+  flex-direction: column; /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+  text-align: center;
+  h2 {
+    color: white;
+  }
+  p {
+    color: white;
+    font-size: 1.2rem;
+  }
+}
+@import "mbheader";
+@import "mbnav";
+@import "mbmain";
+@import "stats";
+@import "footer";

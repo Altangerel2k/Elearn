@@ -1,0 +1,199 @@
+.stats {
+  .container{
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+
+  }
+  div{
+    background-color: white;
+    text-align: center;
+
+  }
+
+  &__contents
+  {
+    background-color: white;
+    text-align: center;
+    div{
+      text-align: center;
+    }
+
+  }
+  &__num {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-bottom: rem(-28px);
+    margin-top: rem(-14px);
+    color: $bgaccent;
+    font-family: 'teko', sans-serif;
+    font-weight: 300;
+    font-size: rem(80px);
+    text-align: center;
+    letter-spacing: letterspacing(10,80);
+  }
+  &__desc {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #353535;
+    font-family: 'titillium web', sans-serif;
+    font-size: rem(16px);
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: rem(650px)) {
+  .stats .row {
+    display: flex;
+    flex-direction: column;
+    .column { padding: 2rem 0; }
+  }
+}
+
+.touch{
+  padding-top: 2rem;
+  margin:0;
+  div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .mbvideo{
+    height: 16rem; margin:0;
+    div{
+      position: relative;
+      text-align: center;
+      .fa{
+        font-size: 4rem;
+        color:black;
+        position: absolute;
+        top:6rem;
+        left:50%;
+        margin-left: -2rem;
+      }
+    }
+  }
+  .touchheader
+  {
+    text-align: center;
+    background-color: #403b4c;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    h1{
+      color:white;
+    }
+  }
+  .touchcontactinfo
+  {
+    background-color: #403b4c!important;
+    padding: 2rem!important;
+
+    .secondary-featurette{
+      height: 5rem;
+      color: #fff;
+      background-color: #4a4656;
+      padding: .75em;
+      text-decoration: none;
+      display: flex;
+      flex-direction:row;  /* make main axis vertical */
+      justify-content: center; /* center items vertically, in this case */
+      align-items: center;
+      div{
+        text-align: center;
+      }
+    }
+    .secondary-featurette:hover{
+      background-color: #544f61;
+    }
+  }
+
+
+}
+%verticalcenter
+{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.mbbanner{
+  margin-top: 5rem!important;
+  marging-bottom: 5rem!important;
+  background-color: white;
+  div{
+
+
+    height: 16rem;
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    text-align: center;
+
+    h2{
+      color:$navBGcolor;
+      @extend %verticalcenter;
+    }
+    a{
+      background-color:$navBGcolor;
+      color:white;
+      @extend %verticalcenter;
+    }
+  }
+}
+
+.touchloc{
+  padding-top: 2rem!important;
+  margin:0;
+  div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .mbvideo{
+    height: 25rem; margin:0;
+    padding: 0!important;
+    .col{
+      position: relative;
+      text-align: center;
+      margin: 0!important;
+      padding: 0!important;
+      display: flex;
+      flex-direction:column;  /* make main axis vertical */
+      justify-content: center; /* center items vertically, in this case */
+      align-items: center;
+
+    }
+    .mboverlay{
+      background-color: rgba(70,188,210,.5);
+      width: 100%;
+      height: 100%;
+      margin: 0!important;
+      display: flex;
+      flex-direction:column;  /* make main axis vertical */
+      justify-content: center; /* center items vertically, in this case */
+      align-items: center;
+      text-align: center;
+    }
+    .col:hover{
+      .mboverlay{
+      width: 92%;
+      height: 92%;}
+    }
+
+
+    h2{
+      color: white;
+    }
+    blockquote{
+      width: 80%;
+      p{
+        color:white;
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+
+
+}

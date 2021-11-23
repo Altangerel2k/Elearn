@@ -1,0 +1,100 @@
+.mbfooter {
+  padding-top: 3rem;
+  .firstline {
+    height: 1rem;
+    position: relative;
+    border-top: 17px solid #c5a786;
+    text-align: center;
+    .footer__logo__image {
+      display: block;
+      width: 140px;
+      width: 8.75rem;
+      margin: -1.8rem auto 0;
+    }
+  }
+  .touchheader {
+    text-align: center;
+    background-color: #403b4c;
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
+    h1 {
+      color: white;
+    }
+  }
+  .touchcontactinfo {
+    background-color: #403b4c !important;
+    padding: 2rem !important;
+
+    .secondary-featurette {
+      height: 5rem;
+      color: #fff;
+      background-color: #4a4656;
+      padding: .75em;
+      text-decoration: none;
+      display: flex;
+      flex-direction: row; /* make main axis vertical */
+      justify-content: center; /* center items vertically, in this case */
+      align-items: center;
+      div {
+        text-align: center;
+      }
+    }
+    .secondary-featurette:hover {
+      background-color: #544f61;
+    }
+
+  }
+  .touchcontactinfo2 {
+    background-color: #403b4c !important;
+    padding: 2rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 0 !important;
+
+    .footer-logos {
+      margin-left: 0;
+      list-style-type: none;
+    }
+    .footer-logos__list-item {
+      display: inline-block;
+      padding: 10px 0 0 10px;
+      vertical-align: middle;
+    }
+
+    li {
+      line-height: 1.4em;
+    }
+  }
+  .touchcontactinfo3 {
+    background-color: #403b4c !important;
+    padding: 2rem !important;
+    padding-top: 0 !important;
+
+    .mbn{
+      margin-bottom: 0!important;
+      color:white;
+      font-size: 12px;
+      a{
+        color:white;
+        font-size: 12px;
+      }
+    }
+    .footer__copyright__list {
+      float: left;
+      margin-left: 0;
+      margin-bottom: 0!important;
+      list-style-type: none;
+      color:white;
+      a{
+        color:white;
+        font-size: 12px;
+      }
+    }
+    .menu-item {
+      display: inline-block;
+      padding: 0 0 0 3px;
+      vertical-align: middle;
+    }
+
+  }
+}
+
